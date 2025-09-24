@@ -140,8 +140,11 @@ Is an architectural style that structures an application as a collection of loos
 - **Windows Container Limitations:** Windows containers are less common, workload-specific, and use different isolation models.
 ##### How Containers Are Implemented
 - **Container Implementation:** Containers are implemented using a combination of existing Linux kernel features and modern tooling.
-- **Isolation Mechanism:** Namespaces provide isolation for containers by separating resources like process IDs, network interfaces, and file systems.
-- **Resource Management:** Control groups (cgroups) allow for the management of resource allocation, preventing any single container from monopolizing resources.
+- **Isolation Mechanism:** *Namespaces* provide isolation for containers by separating resources like process IDs, network interfaces, and file systems.
+- **Resource Management:** *Control groups (cgroups)* allow for the management of resource allocation, preventing any single container from monopolizing resources.
+- **Union File Systems (e.g., OverlayFS) (layered filesystems):**  
+	- Container images are built in layers (base OS, dependencies, app code).  
+	- Layers are shared across containers, saving space and speeding up deployment.
 ###### Container Engine
 - A platform for creating, deploying, and running containerized applications.
 - **Examples:** Docker, containerd, and CRI-O.
