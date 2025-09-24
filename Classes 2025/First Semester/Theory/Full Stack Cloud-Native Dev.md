@@ -110,3 +110,53 @@ Is an architectural style that structures an application as a collection of loos
 - **Performance:** Capable of handling **millions of events per second** with low latency.
 - **Use Cases:** Real-time data ingestion and event streaming.
 - **Scalability: Ideal for Publish/Subscribe at massive scale**.
+### Week 4
+#### Containers
+- **Container Benefits:** Lightweight, portable, and consistent execution environment.
+- **Container Advantages over VMs:** Isolate services with less overhead, start faster, and enable microservices at scale.
+- **Container Impact:** Independent deployment, faster scaling, and efficient resource use.
+#### VMs
+**Benefits**:
+- **Resource Optimization:** Divides one physical machine into multiple virtual machines for better resource utilization.
+- **Scalability:** Offers easier scaling and rapid elasticity.
+- **Cost Efficiency:** Employs a pay-as-you-go model for virtual machines in the cloud.
+**Limitations**:
+- **Resource Consumption of VMs:** Each VM requires CPU, storage, RAM, and a guest operating system.
+- **Impact of Multiple VMs:** Running more VMs leads to increased resource consumption.
+- **Guest OS Overhead:** Guest operating systems contribute to resource wastage.
+
+#### OS Virtualization: Containerization
+- **Container Architecture:** Containers share the host OS kernel and often binaries and libraries, making them lightweight and fast to start.
+- **Resource Efficiency:** Containers are exceptionally lightweight, typically in the megabyte range, and start in seconds.
+- **Shared Resources:** Containers share the host OS kernel and, usually, the binaries and libraries, which are read-only.
+##### Containers
+- **Container Benefits:** Lightweight, portable, and consistent execution environment.
+- **Container Advantages vs VMs:** Isolate services with less overhead, start faster, and enable microservices at scale.
+- **Container Impact:** Independent deployment, faster scaling, and efficient resource use.
+
+##### Do Containers Run on Linux or Windows?
+- **Container Operating System:** Containers primarily run on Linux.
+- **Linux Container Prevalence:** Linux containers are the standard and most widely used form of containers.
+- **Windows Container Limitations:** Windows containers are less common, workload-specific, and use different isolation models.
+##### How Containers Are Implemented
+- **Container Implementation:** Containers are implemented using a combination of existing Linux kernel features and modern tooling.
+- **Isolation Mechanism:** Namespaces provide isolation for containers by separating resources like process IDs, network interfaces, and file systems.
+- **Resource Management:** Control groups (cgroups) allow for the management of resource allocation, preventing any single container from monopolizing resources.
+###### Container Engine
+- A platform for creating, deploying, and running containerized applications.
+- **Examples:** Docker, containerd, and CRI-O.
+
+###### Containers: a great enabler of cloud-native!
+- An isolated environment for running applications.
+- **Container Image:** A read-only template used to launch a container.
+	- A template or blueprint for creating a running container.
+	- Image is like a recipe, and container is like a dish.
+	- **Dockerfile:** A simple text file used to build Docker images.
+- **Container Image Content:** Includes code, runtime, system tools, libraries, and settings.
+##### Containerized Microservice
+- **Containerization Process:** Packaging code, dependencies, and runtime into a container image. 
+- **Image Storage:** Images are stored in a container registry, acting as a repository.
+- **Registry Location:** Registries can be local, on-premises, or in the cloud, with Docker Hub being a public option.
+- **Container Instance Lifecycle:** Application starts or scales by transforming the container image into a running container instance.
+- **Container Instance Portability:** The instance runs on any computer with a container runtime engine installed.
+- **Container Instance Scalability**: You can have as many instances of the containerized service as needed.

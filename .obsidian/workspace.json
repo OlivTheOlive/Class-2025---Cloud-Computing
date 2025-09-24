@@ -11,10 +11,14 @@
             "id": "740938aea38cd659",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Classes 2025/First Semester/Theory/Full Stack Cloud-Native Dev.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Full Stack Cloud-Native Dev"
             }
           }
         ]
@@ -74,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317.50271224975586
+    "width": 317.50271224975586,
+    "collapsed": true
   },
   "right": {
     "id": "9ae70122b926d45f",
@@ -138,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Todos today.md",
+                "file": "Classes 2025/First Semester/Theory/Full Stack Cloud-Native Dev.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Todos today"
+              "title": "Outline of Full Stack Cloud-Native Dev"
             }
           },
           {
@@ -178,7 +183,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c1254bde03da88a8",
+  "active": "740938aea38cd659",
   "lastOpenFiles": [
     "Classes 2025/First Semester/Theory/Cloud Solutions Architecture.md",
     "Classes 2025/First Semester/Lab/Cloud Migration.md",
