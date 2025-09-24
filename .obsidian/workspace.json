@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "7f01475eaf4b0327",
+        "id": "34f80a473fa3b49b",
         "type": "tabs",
         "children": [
           {
-            "id": "72c0f7dba15fe35c",
+            "id": "740938aea38cd659",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": ".gitignore",
-                "bFile": ".gitignore",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: .gitignore"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -182,7 +178,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "72c0f7dba15fe35c",
+  "active": "c1254bde03da88a8",
   "lastOpenFiles": [
     "Classes 2025/First Semester/Theory/Cloud Solutions Architecture.md",
     "Classes 2025/First Semester/Lab/Cloud Migration.md",
