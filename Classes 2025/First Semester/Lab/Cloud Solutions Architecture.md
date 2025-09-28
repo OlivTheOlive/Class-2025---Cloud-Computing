@@ -32,3 +32,4 @@ Private IP was created to solve the shortage of public IP addresses.
 - Low latency by shortening the data path
 - High level of security because its the peering is isolated from public transit
 
+
