@@ -35,63 +35,46 @@ Developing a cloud adoption strategy
 	4. **Capacity optimization:** Capacity optimization, where you only pay for the resources you utilize over time, is another technical benefit of the cloud.
 6. Organizational alignment and skills readiness plans  
 7. Creating a business case
-Question 1 (0.5 points)
-Which getting-started guides can help if your adoption efforts stopped or reached a plateau?
-
-|     |                     |
-| --- | ------------------- |
-|     | Establish teams     |
-| x   | Accelerate adoption |
-|     | Align foundation    |
-|     | Improve controls    |
-Question 2 (0.25 points)
-
-Designing a cloud environment that can support your term adoption plans is slowing your adoption plans. How do you get back on track?
-
-|     |                     |
-| --- | ------------------- |
-|     | Accelerate adoption |
-| x   | Align foundation    |
-|     | Establish teams     |
-|     | Improve controls    |
-
-Question 3(0.25 points)
-Designing a cloud environment that can support your term adoption plans is slowing your adoption plans. How do you get back on track?
-
-|     |                     |
-| --- | ------------------- |
-| x   | Align foundation    |
-|     | Accelerate adoption |
-|     | Improve controls    |
-|     | Establish teams     |
-Question 4 (0.5 points)
-Which getting-started guides can help if things are progressing slower than expected?
-
-|     |                     |
-| --- | ------------------- |
-| x   | Establish teams     |
-|     | Accelerate adoption |
-|     | Improve controls    |
-|     | Align foundation    |
-Question 5 (0.25 points)
-The IT governance team is concerned about guardrails outlined in your IT governance policies. How can you partner with it to establish the right guardrails?
-
-|     |                     |
-| --- | ------------------- |
-|     | Establish teams     |
-|     | Align foundation    |
-|     | Accelerate adoption |
-| x   | Improve controls    |
-Question 6 (0.25 points)
-Designing a cloud environment that can support your term adoption plans is slowing your adoption plans. How do you get back on track?
-
-|     |                     |
-| --- | ------------------- |
-|     | Establish teams     |
-| x   | Align foundation    |
-|     | Accelerate adoption |
-|     | Improve controls    |
-
- 
 
 #### Week 4
+##### Understand your digital estate
+- **Cloud Strategy:** A mix of workload migration, modernization, and cloud-native approaches.
+- **Digital Estate:** Applications, data, and VMs that need to be understood for a successful cloud strategy.
+- **Innovation Potential:** The cloud unlocks innovative potential for technology portfolios.
+##### Evaluation digital estate
+- **Initial Step:** Identify on-premises infrastructure, applications, and dependencies.
+- **Workload Identification:** Use Azure Migrate’s server assessment tool to identify workloads, dependencies, and optimization opportunities.
+- **Cost Projection:** Gather optimized cost projections for workloads to be migrated to Azure.
+##### The Discovery and Assessment tools  
+- **Azure Readiness Assessment:** Evaluates the readiness of on-premises machines for migration to Azure.
+- **Azure Sizing and Cost Estimation**: Estimates the size and cost of running on-premises servers in Azure.
+- **Dependency Analysis:** Identifies cross-server dependencies and optimization strategies for migrating interdependent servers to Azure.
+##### Identifying workloads in use
+- **Azure Migrate Appliance Function:** Performs agentless discovery of on-premises VMs and physical servers.
+- **Data Collected by Appliance:** Machine, disk, NIC metadata; installed applications, roles, and features; performance data (CPU, memory, disk IOPS, throughput).
+- **Discovery Process:** Continuous discovery collects machine configuration information and performance metadata.
+##### Dependencies between workloads
+- **[Dependency Analysis](https://learn.microsoft.com/en-us/azure/migrate/concepts-dependency-visualization?view=migrate-classic) Benefits:** Visualize and identify cross-server dependencies to understand optimization strategies for moving interdependent servers to Azure.
+- **Dependency Analysis Purpose:** Helps determine if machines are in use or can be decommissioned, ensuring nothing is left behind and avoiding outages during migration.
+- **Next Step After Analysis:** Create high-confidence groups of servers and start assessing them.
+##### Readiness and suitability analysis
+- **Azure Readiness Categories:** Ready, Conditionally ready, Not ready, and Readiness unknown.
+- **Readiness Report Export:** Allows filtering and understanding of Azure readiness for machines.
+- **Machine Migration Guidance:** Provided based on the readiness category, with varying levels of required changes.
+##### Sizing
+- **Azure Readiness Assessment:** Provides sizing recommendations for Azure VMs and disks based on performance history or on-premises settings.
+- **Database Assessment Recommendations:** Offers suggestions for database SKU, pricing tier, and compute level.
+##### Evaluate gaps and blockers
+- **Migration Planning:** Analyze downtime constraints and operational dependencies to ensure RTO and minimal data loss.
+- **Compatibility Check:** Review and mitigate compatibility issues or unsupported features before migration.
+- **Assessment Tools:** Utilize server assessment reports and database assessment tools for compatibility analysis.
+
+##### Prioritize workloads
+- **Migration Prioritization:** Consider factors like complexity, time-to-migrate, business urgency, production considerations, compliance, security requirements, and application knowledge.
+- **Migration Strategy:** Adopt an “apply and learn” approach to migrate applications systematically and controllably.
+- **Initial Migration Focus:** Identify and migrate applications and workloads based on collected inventory information.
+##### Finalizing the migration plan
+- **Migration Plan:** Create a plan that includes application and database availability, downtime constraints, migration milestones, data copy time, and post-migration testing.
+- P**ost-Migration Testing:** Conduct functional, integration, security, and performance testing to ensure applications work as expected and data is transferred successfully.
+- **Migration Roadmap:** Build a roadmap that includes a maintenance window for minimal downtime and to limit operational and business impact.
+

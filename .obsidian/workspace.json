@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "fd63df641a0db58b",
+        "id": "53700272cf6500c4",
         "type": "tabs",
         "children": [
           {
-            "id": "a9dafe33d5f20c8a",
+            "id": "287ecde7eb622e1a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Classes 2025/First Semester/Theory/Intro to Cloud Computing/Lab 1.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Lab 1"
+              "title": "New tab"
             }
           }
         ]
@@ -78,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317.50271224975586,
-    "collapsed": true
+    "width": 317.50271224975586
   },
   "right": {
     "id": "9ae70122b926d45f",
@@ -183,31 +178,31 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a9dafe33d5f20c8a",
+  "active": "287ecde7eb622e1a",
   "lastOpenFiles": [
-    "Classes 2025/First Semester/Theory/Intro to Cloud Computing/Assignment 1.md",
-    "Classes 2025/First Semester/Theory/Accessible by Design.md",
     "Classes 2025/First Semester/Theory/Cloud Migration.md",
-    "Classes 2025/First Semester/Lab/Cloud Solutions Architecture.md",
-    "Classes 2025/First Semester/Theory/Full Stack Cloud-Native Dev.md",
-    "Classes 2025/First Semester/Theory/Cloud Solutions Architecture.md",
     "Classes 2025/First Semester/Lab/Cloud Migration.md",
+    "Classes 2025/First Semester/Theory/Cloud Solutions Architecture.md",
+    "Classes 2025/First Semester/Lab/Cloud Solutions Architecture.md",
     "Classes 2025/First Semester/Theory/Intro to Cloud Computing/Intro To Cloud Computing.md",
+    "Classes 2025/First Semester/Theory/Intro to Cloud Computing/Assignment 1.md",
+    "Classes 2025/First Semester/Theory/Remote Data and RT Application.md",
+    "Pasted image 20250928121240.png",
     "Classes 2025/First Semester/Theory/Intro to Cloud Computing/Lab 1.md",
+    "Pasted image 20250928121302.png",
+    "Pasted image 20250928121414.png",
+    "Pasted image 20250928121551.png",
+    "Pasted image 20250928121609.png",
+    "Pasted image 20250928121642.png",
+    "Pasted image 20250928121813.png",
+    "Pasted image 20250928122041.png",
+    "Pasted image 20250929205609.png",
+    "Pasted image 20250929205658.png",
+    "Classes 2025/First Semester/Theory/Accessible by Design.md",
+    "Classes 2025/First Semester/Theory/Full Stack Cloud-Native Dev.md",
     "Classes 2025/First Semester/Lab/Full Stack Cloud-Native Dev.md",
     "Classes 2025/First Semester/Lab/Accessible by Design.md",
     "Classes 2025/First Semester/Theory/Intro to Cloud Computing",
-    "Classes 2025/First Semester/Theory/Remote Data and RT Application.md",
-    "Pasted image 20250919171027.png",
-    "Pasted image 20250919171025.png",
-    "Pasted image 20250918174615.png",
-    "Pasted image 20250918174641.png",
-    "Pasted image 20250918171404.png",
-    "Pasted image 20250903205017.png",
-    "Pasted image 20250918182046.png",
-    "Pasted image 20250917201349.png",
-    "Pasted image 20250918171608.png",
-    "Pasted image 20250918174144.png",
     "2025-09-18.md",
     "Untitled.base",
     "Plex Migration to Docker.md",
@@ -225,7 +220,6 @@
     "PoliTrackr/Build an admin connection to update data.md",
     "PoliTrackr/Connect data through API.md",
     "PoliTrackr/Optimize.md",
-    "Barista game/Kanban.md",
     "Classes 2025/First Semester/Lab/Cloud Migration",
     "markitdown-output/1757112766579_Week 1 - Using GitHub.docx",
     "markitdown-output/1757112353056_Week 1 - Using GitHub.docx",

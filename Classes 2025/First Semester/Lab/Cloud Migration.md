@@ -1,8 +1,8 @@
 [BrightSpace](https://brightspace.algonquincollege.com/d2l/home/825144)
 
-### Week 2
+## Week 2
 [Case-Study](https://www.microsoft.com/en/customers/story/787511-vipps-banking-azure)
-##### Lab 1
+#### Lab 1
 1. Pick a case study and come up with a 1 page migration plan that includes
     - What are the company's motivators of migration to the cloud?
 		- International expansion (Scaling)
@@ -36,7 +36,7 @@
 
 
 
-### Week 3
+## Week 3
 
 client ->> traffic manager --> firewall --> load balancer --> virtual network(front end <--> MT <--> DB) 
 ##### Lab 2
@@ -54,7 +54,7 @@ In a IaaS implementation, the application will need to manage almost everything 
 In a PaaS implementation, the application requires less hands-on implementation and integration. Using a cloud provider like Azure and its PaaS tools, users have less control over the environment but gain access to more prebuilt configurations. In our scenario, users won’t create their own firewall or load balancer. Instead, they can use an auto-scalable web app for the front end, an auto-scalable app services (backend), and connect to their integrated database service.
 [![](https://mermaid.ink/img/pako:eNptU0uP2jAQ_iuWTyABynMDVtUDbHuiq2q36qGEg4lnwSLYaHDY7SL-e_0I22ybHBLPfI_MjO0LrbQAyijHaicNVKZBGG_A8FIR-2xRN0dS1boRA_8erhbuQ76jPksBuO7yzmpwAjwDDlc_JZqG1-QBzIvG_ZpIFWxKFRSOKCsgz6iVGUhlABWY4eqri8kXJUjsRec-ftIrSHoFYjMQ3PANP8Fwdd-uepmh9vcW5rzag7V98nGvotZcdEpZ2pDMec1V1RH8U79EeOF13e2gTXWH1JVUtYQPM1r4xPpmLTZsST6Nx5_JIwvFh7wfFXsM0PJ_KLGYg-YfINdTCyyZ53Xyc5__EfJJ69WW_y5yzACFyv-6tUw6oluUgjKDDYzoAfDAXUgvTlZSs4MDlJTZpeC4L2mprlZz5OqX1oebzB657e4WNEe7yXAv-Ra5ZTzz-uQodv8AF7pRhrK7OPcelF3oK2XJNJ7M4qLI42k6zdK0GNHflKVRPsmKWZyl0V2UWkl2HdE3_9dokmfxrJhGUZzPsjxLrR0IaTR-C3fIX6XrHzwNFi4?type=png)](https://mermaid.live/edit#pako:eNptU0uP2jAQ_iuWTyABynMDVtUDbHuiq2q36qGEg4lnwSLYaHDY7SL-e_0I22ybHBLPfI_MjO0LrbQAyijHaicNVKZBGG_A8FIR-2xRN0dS1boRA_8erhbuQ76jPksBuO7yzmpwAjwDDlc_JZqG1-QBzIvG_ZpIFWxKFRSOKCsgz6iVGUhlABWY4eqri8kXJUjsRec-ftIrSHoFYjMQ3PANP8Fwdd-uepmh9vcW5rzag7V98nGvotZcdEpZ2pDMec1V1RH8U79EeOF13e2gTXWH1JVUtYQPM1r4xPpmLTZsST6Nx5_JIwvFh7wfFXsM0PJ_KLGYg-YfINdTCyyZ53Xyc5__EfJJ69WW_y5yzACFyv-6tUw6oluUgjKDDYzoAfDAXUgvTlZSs4MDlJTZpeC4L2mprlZz5OqX1oebzB657e4WNEe7yXAv-Ra5ZTzz-uQodv8AF7pRhrK7OPcelF3oK2XJNJ7M4qLI42k6zdK0GNHflKVRPsmKWZyl0V2UWkl2HdE3_9dokmfxrJhGUZzPsjxLrR0IaTR-C3fIX6XrHzwNFi4)
 
-### Week 4
+## Week 4
 ### Section 1: On-Premises Solution Design
 **Scenario**:  
 A mid-sized retail company currently runs a traditional on-premises solution consisting of:
@@ -101,4 +101,59 @@ Configure Azure Communication Services for email delivery.
 Monitor and scale performance, optimize VM sizing, enable backups, strengthen governance, and decommission on-prem resources as needed or migrate back if the cloud solution isn't fulfilling business needs.
 
 ---
+
+## Week 5
+### Lab 4
+The application consists of two virtual machines: the **WebServerVM** and the **SQLVM**. To ensure high availability in the cloud, the application will be deployed in a **multi-region setup** with **load balancing** between regions. The application can handle no more than 6 hours of downtime.
+
+Additional technical details:
+
+- WebServerVM is a frontend server with static content.
+- SQLVM hosts the application’s backend SQL database.
+- The web server and database will be replicated across regions with **automatic failover** in case of regional downtime.
+
+
+#### Q1: A solution diagram showing the target architecture with **load balancers** and **multi-region VMs**.
+[![](https://mermaid.ink/img/pako:eNqFU1tv2jAU_ivWQZo6CaLabkITVX1I2fqSSlsQq7S5D4YYiJrYzHHYBfHf5wQIIbDWT_Z3zneJT7yBmUoEBDDP1K_ZkmuDophJVJTThearJYpxFP5gEItFqiTPUKR4gkKecTkTGl3F-CODF0vYrxg_fwqxJTyL6VjotdDfnnoYXX3WShohk0O33Z64kLddSMeFXHAh77vgUeUy_hr1YtyJbcEvu1oV-Lw4ruOtsnTGm_LZRxzlSSfvifyFYlue_C99c0NnAaOwfRqFF9Md6d0AJ3TSpts1sbxJYccQi5-lKExhyWgwuEeP9cweMzXtTqyRty11a5UQfWg57f6Tfa26nD1MjjBpwfUE0F2Djw_tVY_FHcSAl0YN5jzN1LpKgJyudr0_Wp5qtKWZhD4sdJpAYHQp-pALnfPqCJuKxMAsRS4YBHabcP3KgMmt5ay4_K5UfqBpVS6WEMx5VthTuUq4EaOU23nkDartPQv9oEppIHBprQHBBn5DQKjnkBvqebc31KeUEFv9AwH2qIMJdYcYey71b_G2D39r12vHo77v-kOXuK7vedjvg0hSo_TT7pHXb337D0OvIwg?type=png)](https://mermaid.live/edit#pako:eNqFU1tv2jAU_ivWQZo6CaLabkITVX1I2fqSSlsQq7S5D4YYiJrYzHHYBfHf5wQIIbDWT_Z3zneJT7yBmUoEBDDP1K_ZkmuDophJVJTThearJYpxFP5gEItFqiTPUKR4gkKecTkTGl3F-CODF0vYrxg_fwqxJTyL6VjotdDfnnoYXX3WShohk0O33Z64kLddSMeFXHAh77vgUeUy_hr1YtyJbcEvu1oV-Lw4ruOtsnTGm_LZRxzlSSfvifyFYlue_C99c0NnAaOwfRqFF9Md6d0AJ3TSpts1sbxJYccQi5-lKExhyWgwuEeP9cweMzXtTqyRty11a5UQfWg57f6Tfa26nD1MjjBpwfUE0F2Djw_tVY_FHcSAl0YN5jzN1LpKgJyudr0_Wp5qtKWZhD4sdJpAYHQp-pALnfPqCJuKxMAsRS4YBHabcP3KgMmt5ay4_K5UfqBpVS6WEMx5VthTuUq4EaOU23nkDartPQv9oEppIHBprQHBBn5DQKjnkBvqebc31KeUEFv9AwH2qIMJdYcYey71b_G2D39r12vHo77v-kOXuK7vedjvg0hSo_TT7pHXb337D0OvIwg)
+#### Q2: A description of the **target architecture** highlighting **redundancy** and **failover mechanisms**.
+
+##### Redundancy: 
+**Global Load Balancer:** Single entry point that distributes user traffic across both regions based on health and availability
+**Web Tier:** Regional load balancer with multiple WebServerVMs serving static content
+**Data Tier:** SQL database cluster with Primary and Replica instances
+##### Failover: 
+**Multiple Instances**: Each region contains redundant SQL replicas to handle component failures.
+**Geographic Redundancy**: Complete application stack exists in both regions, protecting against regional outages with automatic failover. 
+**Cross-Region Replication**: Database changes continuously sync between regions to prevent data loss.
+
+#### Q3: The steps of migration, including:
+- Replication of virtual machines across regions.
+- Configuration of load balancers.
+- Implementation of database replication and failover.
+
+Step 1: Discovery & Assessment of digital estate
+- Use Azure Migrate’s server assessment tool to identify workloads, dependencies, and optimization opportunities.
+- Identify WebServerVM and SQLVM dependencies and performance requirements.
+
+Step 2: VM Replication
+- Configure WebServerVMs replication to all regions
+- Migrate and replicate SQLVMs across both regions
+
+Step 3: Load Balancer Configuration
+- Configure global and regional load balancers
+
+Step 4: Database Replication & Failover
+- Configure data redundancy polices in all region
+- Configure cross-region data replication
+- Implement data automatic failover
+
+Step 5: Testing
+- Test services, failover and backups in all region
+
+Step 6: Go-Live
+- Monitor health of services
+
+Step 7: Post-Migration
+- Optimize
+- Decommission old infrastructure
 
