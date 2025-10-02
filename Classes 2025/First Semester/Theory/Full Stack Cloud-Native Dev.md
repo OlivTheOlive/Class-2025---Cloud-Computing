@@ -163,3 +163,40 @@ Is an architectural style that structures an application as a collection of loos
 - **Container Instance Lifecycle:** Application starts or scales by transforming the container image into a running container instance.
 - **Container Instance Portability:** The instance runs on any computer with a container runtime engine installed.
 - **Container Instance Scalability**: You can have as many instances of the containerized service as needed.
+
+### Week 5
+#### Docker Workflow
+- **Container Lifecycle:** Container images become containers at runtime.
+- **Image Creation:** Dockerfiles define the steps to build an image, which is then created using `docker build`.
+- **Container Management:** Containers are created and started from images using `docker run`, and can be managed with stop, start, and remove commands.
+#### Docker Images
+- **Image Immutability:** Images are immutable and cannot be directly modified after creation.
+- **Container Image Layers:** Container images are made up of layers, each representing a read-only file system modification.
+- L**ayer Modifications:** Layers add or change files in the container image.
+##### Stacking Layers Like Crafting the Perfect Sandwich
+- **Docker Image Analogy:** A Docker image is like a sandwich, with each layer representing an ingredient.
+- **Layer Stacking:** Docker stacks layers to build a complete image, similar to stacking ingredients to make a sandwich.
+##### Layers
+- **Docker Image Structure:** A Docker image is composed of a series of layers, each representing a set of file differences.
+- **Layered Filesystem:** These layers are stacked to form the final image, creating a filesystem used by the container.
+- **Layer Benefits:** Layers promote reusability and minimize storage.
+#### How Layers Work at Runtime
+- **Container Layer:** A temporary, writable layer added on top of read-only image layers when a container starts.
+- **Purpose of Container Layer:** Allows containers to modify files without affecting the original image.
+- **Persistence of Changes:** Changes made in the container layer are lost when the container stops unless explicitly committed into a new image.
+
+#### Docker Compose
+- A tool for defining and running multi-container Docker applications.
+- **Configuration:** Uses a YAML file to configure services, networks, and volumes.
+- **Application Management:** Manages multiple containers as a single application.
+#### Docker Compose Vs Docker
+- Docker Client: Command-line interface for interacting with the Docker daemon to build, run, and manage containers.
+- Docker Compose: Higher-level tool for managing multi-container Docker applications by defining services and relationships in a YAML file.
+- Relationship: Docker Compose uses the Docker client and daemon to manage containers but is designed for orchestrating multiple containers together.
+
+
+### Week 6
+
+### Week 7
+
+### Week 9

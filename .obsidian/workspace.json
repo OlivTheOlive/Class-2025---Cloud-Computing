@@ -11,13 +11,28 @@
             "id": "287ecde7eb622e1a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Classes 2025/First Semester/Theory/Full Stack Cloud-Native Dev.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Full Stack Cloud-Native Dev"
+            }
+          },
+          {
+            "id": "518a35699f59e46e",
+            "type": "leaf",
+            "state": {
+              "type": "smart-release-notes-view",
+              "state": {},
+              "icon": "file-text",
+              "title": "Release Notes"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -74,7 +89,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317.50271224975586
+    "width": 317.50271224975586,
+    "collapsed": true
   },
   "right": {
     "id": "9ae70122b926d45f",
@@ -156,6 +172,16 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "ed9799989c07e475",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {},
+              "icon": "smart-connections",
+              "title": "Connections"
+            }
           }
         ],
         "currentTab": 4
@@ -175,10 +201,13 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-kanban:Create new board": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "smart-connections:Open: Smart Chat": false,
+      "smart-connections:Smart Connections: Open connections view": false,
+      "smart-connections:Smart Connections: Open random connection": true
     }
   },
-  "active": "287ecde7eb622e1a",
+  "active": "8d450c255f056723",
   "lastOpenFiles": [
     "Classes 2025/First Semester/Theory/Cloud Migration.md",
     "Classes 2025/First Semester/Lab/Cloud Migration.md",
