@@ -137,6 +137,10 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
+      "smart-connections:Open: Smart Chat": false,
+      "smart-connections:Smart Connections: Open connections view": false,
+      "smart-connections:Smart Connections: Open random connection": false,
       "bases:Create new base": false,
       "obsidian-kanban:Create new board": false,
       "switcher:Open quick switcher": false,

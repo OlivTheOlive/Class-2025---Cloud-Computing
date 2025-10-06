@@ -78,3 +78,9 @@ Developing a cloud adoption strategy
 - P**ost-Migration Testing:** Conduct functional, integration, security, and performance testing to ensure applications work as expected and data is transferred successfully.
 - **Migration Roadmap:** Build a roadmap that includes a maintenance window for minimal downtime and to limit operational and business impact.
 
+#### Week 5
+
+##### Rehosting/Lift and Shift
+- A migration option that moves existing applications to Azure without code changes, allowing for quick cloud migration.
+- **Rehosting Advantages:** Enables quick cloud migration, avoids code changes, and allows apps to leverage Azure IaaS scalability.
+- **Rehosting Process:** Prepare Azure and on-premises VMs, replicate VMs, and then migrate them to Azure.
