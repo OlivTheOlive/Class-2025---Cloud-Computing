@@ -31,7 +31,8 @@
               "title": "Smart Chat"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -187,7 +188,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 458.5
+    "width": 500.5
   },
   "left-ribbon": {
     "hiddenItems": {

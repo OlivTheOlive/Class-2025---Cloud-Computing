@@ -84,3 +84,17 @@ Developing a cloud adoption strategy
 - A migration option that moves existing applications to Azure without code changes, allowing for quick cloud migration.
 - **Rehosting Advantages:** Enables quick cloud migration, avoids code changes, and allows apps to leverage Azure IaaS scalability.
 - **Rehosting Process:** Prepare Azure and on-premises VMs, replicate VMs, and then migrate them to Azure.
+
+
+#### Week 6
+##### Refactor  
+- Refactoring Definition: Refactoring involves minimal changes to apps for Azure PaaS compatibility, enabling cloud service utilization.
+- Refactoring Application: Ideal for adopting Azure DevOps practices, container strategies, and ensuring code portability.
+- Azure App Service Benefits: Offers a fully managed platform for web apps, simplifying infrastructure management, updates, and scaling.
+- Migration Assistant Access: You need to provide access to your Azure account.
+- Resource Group Selection: You need to choose a resource group for the migration.
+- Web App Naming: You need to provide a name for the web app.
+- Migration Process: The Migration Assistant collects details, creates resources, deploys source files, and performs optional steps.
+- Resource Creation: The Migration Assistant creates the necessary App Service resources in the chosen region and resource group.
+- Source File Deployment: The Migration Assistant zips and deploys the web app’s source files using the App Service deployment API.
+
